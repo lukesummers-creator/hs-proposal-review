@@ -76,21 +76,85 @@ Given Tier 2/3 mix and walls+ceilings prevalence, recommend anchoring near Room 
 
 ---
 
-# 2) HANDYMAN — Draft scope (FastField-driven; notes override)
+# 2) HANDYMAN — Labor estimate + scope list (FastField-driven; notes override)
 
-Rooms with `handyman_required = true` in JSON:
-- Foyer: Install Light Fixture (notes: install flush mount)
-- Kitchen: Install Light Fixture
-- Dining Room: Install Light Fixture
-- Family Room: Install Light Fixture (notes: 2 flush mount)
-- Bathroom 1: **(dropdown glitch: no tasks)** — notes: Mirror swap and strip light replacement
-- 2nd Floor Hallway: Install Light Fixture (notes: flush mount)
-- Main Bedroom: Install Light Fixture; Install Mirror
-- Main Bathroom: Install Light Fixture; Install Mirror (notes: replace vanity fixture and panel mirror)
-- Bedroom 2: Install Light Fixture
-- Bedroom 3: Install Light Fixture
+## Labor estimate (draft)
+- Estimated labor: **11.75 hours**
+- Estimated labor $ (@$100/hr): **$1,175**
 
-Override rule: when task dropdowns are missing, treat `handyman_handyman_notes` as authoritative scope.
+## Scope list (walkthrough order)
+- Foyer — Install light fixture (flush mount)
+- Kitchen — Install light fixture
+- Dining Room — Install light fixture
+- Family Room — Install (2) light fixtures (flush mount)
+- Bathroom 1 — Mirror swap
+- Bathroom 1 — Replace strip light fixture
+- 2nd Floor Hallway — Install light fixture (flush mount)
+- Main Bedroom — Install light fixture
+- Main Bedroom — Install mirror
+- Main Bathroom — Replace vanity fixture
+- Main Bathroom — Replace panel mirror
+- Bedroom 2 — Install light fixture
+- Bedroom 3 — Install light fixture
+
+## Copy/paste minutes list (line breaks)
+45
+45
+45
+90
+45
+60
+45
+45
+45
+60
+45
+45
+45
+
+## Copy/paste allowance list (tax-loaded, rounded; line breaks)
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+## Handyman — SCOPE DETAILS (paste-ready)
+$100 Per Hour Plus the Cost of Materials:
+- Foyer: Install flush-mount light fixture.
+- Kitchen: Install light fixture.
+- Dining Room: Install light fixture.
+- Family Room: Install (2) flush-mount light fixtures.
+- Bathroom 1: Swap/replace mirror and replace strip light fixture.
+- 2nd Floor Hallway: Install flush-mount light fixture.
+- Main Bedroom: Install light fixture and install mirror.
+- Main Bathroom: Replace vanity light fixture and replace panel mirror.
+- Bedroom 2: Install light fixture.
+- Bedroom 3: Install light fixture.
+
+Handyman terms (paste):
+
+"The final handyman invoice is calculated based on actual hours, in 15 min increments, worked on completing the above tasks and the cost of purchasing any necessary materials to complete the job.
+
+For the purposes of this quote, we've inserted our best estimate of the time needed to perform the above tasks. The final cost may be more or less than the provided number based on actual time spent.
+
+Client is responsible for purchasing materials. Please confirm compatibility with HOMEStretch before purchasing to avoid delays and additional fees. HOMEstretch will make product recommendations and provide links for purchasing at no additional cost at clients request.
+
+HOMEstretch can purchase on your behalf and deliver the necessary fixtures, faucets, and hardware to make this project easier for you. If you’d prefer this, please let us know, a 17% service fee will be added to the final cost of materials.
+
+The time begins as soon as a HOMEstretch Team Member is on the client's property and ends as soon as a HOMEstretch Team Member leaves the client's property. Drive time is not billed."
+
+### Notes override rule (FastField glitch aware)
+- Include selected handyman dropdown tasks when present.
+- If dropdown tasks are missing (common glitch; e.g., Bathroom 1), treat `handyman_handyman_notes` as authoritative scope text.
 
 ---
 
