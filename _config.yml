@@ -1,0 +1,10 @@
+title: HS Proposal Review
+theme: minima
+markdown: kramdown
+kramdown:
+  input: GFM
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
