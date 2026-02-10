@@ -79,12 +79,12 @@ Given Tier 2/3 mix and walls+ceilings prevalence, recommend anchoring near Room 
 # 2) HANDYMAN — Labor estimate + scope list (FastField-driven; notes override)
 
 ## Labor estimate (draft)
-- Estimated labor: **11.75 hours**
-- Estimated labor $ (@$100/hr): **$1,175**
+- Estimated labor: **10.75 hours**
+- Estimated labor $ (@$100/hr): **$1,075**
 
 ## Scope list (walkthrough order)
 - Foyer — Install light fixture (flush mount)
-- Kitchen — Install light fixture
+- Kitchen — Install (2) light fixtures
 - Dining Room — Install light fixture
 - Family Room — Install (2) light fixtures (flush mount)
 - Bathroom 1 — Mirror swap
@@ -98,16 +98,16 @@ Given Tier 2/3 mix and walls+ceilings prevalence, recommend anchoring near Room 
 - Bedroom 3 — Install light fixture
 
 ## Copy/paste minutes list (line breaks)
-45
-45
+30
+60
 45
 90
 45
 60
-45
-45
+30
 45
 60
+45
 45
 45
 45
@@ -130,7 +130,7 @@ Given Tier 2/3 mix and walls+ceilings prevalence, recommend anchoring near Room 
 ## Handyman — SCOPE DETAILS (paste-ready)
 $100 Per Hour Plus the Cost of Materials:
 - Foyer: Install flush-mount light fixture.
-- Kitchen: Install light fixture.
+- Kitchen: Install (2) light fixtures.
 - Dining Room: Install light fixture.
 - Family Room: Install (2) flush-mount light fixtures.
 - Bathroom 1: Swap/replace mirror and replace strip light fixture.
